@@ -1,0 +1,23 @@
+.center
+{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+body
+{
+	font-family: "Courier New";
+	font-size:100%;
+}
+
+	/ footer /
+.footer td
+{
+	padding-right:6px;
+}
+
+.footer td#bar
+{
+	height:3px;
+}
