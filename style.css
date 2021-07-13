@@ -9,7 +9,7 @@ body
 {
 	font-family: "Courier New";
 	font-size:100%;
-  	background-image: "diamond_plate_small.jpg";
+  	background-image: url('diamond_plate_small.jpg');
 }
 
 	/ footer /
