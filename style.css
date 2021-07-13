@@ -25,101 +25,14 @@ body{
 	display:inline-block;
 }
 
-/* 画像 */
-.button_railway
+
+.button_creations
 {
 	width:90px;
 	height:auto;
 }
 
-.button_music
-{
-	width:49px;
-	height:auto;
-}
 
-.button_computer
-{
-	width:145px;
-	height:auto;
-}
-
-.button_tenji
-{
-	width:49px;
-	height:auto;
-}
-
-.button_staff
-{
-	width:49px;
-	height:auto;
-}
-
-.button_link
-{
-	width:66px;
-	height:auto;
-}
-
-.photo
-{
-	width:auto;
-	height:240px;
-	float:left;
-}
-
-.photo_w
-{
-	width:auto;
-	height:240px;
-	float:none;
-}
-
-.photo2
-{
-	width:auto;
-	height:480px;
-	float:none;
-}
-
-.photo3
-{
-	width:auto;
-	height:720px;
-	float:none;
-}
-
-.photo_caption
-{
-	width:auto;
-	height:240px;
-	float:none;
-}
-
-.movie_w
-{
-	width:720px;
-	height:405px;
-	border:none;
-
-}
-
-.youtube
-{
-	width:720px;
-}
-
-.youtube iframe
-{
-	top:0;
-	right:0;
-	width:720px;
-	height:405px;
-	border:none;
-}
-
-/* 基本テーブル */
 table
 {
 	font-size:100%;
@@ -175,7 +88,7 @@ table td#footer
 	text-align:center;
 }
 
-/* ヘッダー */
+
 .header
 {
 	width:100%;
@@ -201,7 +114,7 @@ table td#footer
 	height:auto;
 }
 
-/* サブヘッダー */
+
 .sub_header
 {
 	width:100%;
@@ -247,7 +160,7 @@ table td#footer
 	white-space:pre-wrap;
 }
 
-/* セレクター */
+
 .selector
 {
 	width:100%;
