@@ -12,13 +12,11 @@ body
   	background-color:DeepSkyBlue;
 }
 
-	/ footer /
-.footer td
+	/ table /
+
+.table_menu td
 {
-	padding-right:6px;
+	background-color:White;
 }
 
-.footer td#bar
-{
-	height:3px;
-}
+
