@@ -99,44 +99,38 @@
     
     <tr id="web_fun">
        <td id="menu">
-         <a href="javascript:openSite()">Web fun</a>
 <script>
-var links = [
-              "https://www3.nhk.or.jp/nhkworld/",
-              "https://www.fantasynamegenerators.com/",
-              "http://mirror.uncyc.org/wiki/Main_Page",
-              "https://en.uncyclopedia.co/wiki/Main_Page",
-              "https://www.youtube.com/watch?v=rp8hvyjZWHs",
-              "https://www.fmylife.com/",
-              "https://archive.org/index.php",
-              "http://www.pangloss.com/seidel/Shaker/",
-              "https://www.wordspy.com/",
-              "https://puttingweirdthingsincoffee.com/",
-              "https://www.liveplasma.com/",
-              "https://www.cracked.com/",
-              "https://juliasmexicocity.typepad.com/safetygraphics/",
-              "https://www.omegle.com/",
-              "https://failblog.cheezburger.com/",
-              "https://www.fark.com/],
-              "http://www.passiveaggressivenotes.com/",
-              "https://awkwardfamilyphotos.com/",
-              "http://www.textsfromlastnight.com/",
-              "https://postsecret.com/",
-              "http://www.everypoet.com/haiku/default.htm",
-              "https://homestarrunner.com/"
-  ];
+    var sites = [
+              'https://www3.nhk.or.jp/nhkworld/',
+              'https://www.fantasynamegenerators.com/',
+              'http://mirror.uncyc.org/wiki/Main_Page',
+              'https://en.uncyclopedia.co/wiki/Main_Page',
+              'https://www.youtube.com/watch?v=rp8hvyjZWHs',
+              'https://www.fmylife.com/',
+              'https://archive.org/index.php',
+              'http://www.pangloss.com/seidel/Shaker/',
+              'https://www.wordspy.com/',
+              'https://puttingweirdthingsincoffee.com/',
+              'https://www.liveplasma.com/',
+              'https://www.cracked.com/',
+              'https://juliasmexicocity.typepad.com/safetygraphics/',
+              'https://www.omegle.com/',
+              'https://failblog.cheezburger.com/',
+              'https://www.fark.com/',
+              'http://www.passiveaggressivenotes.com/',
+              'https://awkwardfamilyphotos.com/',
+              'http://www.textsfromlastnight.com/',
+              'https://postsecret.com/',
+              'http://www.everypoet.com/haiku/default.htm',
+              'https://homestarrunner.com/'
+    ];
 
-           var openSite = function() {
-              // get a random number between 0 and the number of links
-              var randIdx = Math.random() * links.length;
-              // round it, so it can be used as array index
-              randIdx = parseInt(randIdx, 10);
-              // construct the link to be opened
-              var link = 'http://' + links[randIdx];
-
-     return link;
-    };
+    function randomSite() {
+        var i = parseInt(Math.random() * sites.length);
+        location.href = sites[i];
+    }
 </script>
+<a href="#" onclick="randomSite();">Web-fun</a>
         </td>
       <td>
         Update:15/07/2021
